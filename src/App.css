@@ -22,7 +22,21 @@
   font-size: large;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+#quote-col {
+  background-color: #d3d3d3;
+  height: 150px;
+  width: 500;
+  text-align: center, justify;
+}
+
+#biz-card {
+  background-color: #ff7f00;
+  height: 150px;
+  width: 500;
+}
+
+#main-view {
+  background-color: #add8e6;
+  height: 150px;
+  width: 1000;
 }
