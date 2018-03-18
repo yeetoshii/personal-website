@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import { Grid, Row, Col } from 'react-bootstrap';
 import './App.css';
 
 class App extends Component {
@@ -7,12 +7,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
+          <h1 className="App-title">Welcome to my page. I am Yeeching, but this page is under construction</h1>
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <Grid className="fluid">
+          <Row className="show-grid">
+            <Col lg={6}>
+              <Row className="show-grid" id="quote-col">"人は時に、健気に生きているだけで、誰かを救っていることがある。" ~ 東野 圭吾</Row>
+              <Row className="show-grid" id="biz-card"></Row>
+            </Col>
+            <Col id="main-view" lg={6}>
+            </Col>
+          </Row>
+        </Grid>
       </div>
     );
   }
