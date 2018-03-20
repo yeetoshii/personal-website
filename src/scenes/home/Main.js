@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
-import './App.css';
+import './Main.css';
+import { QuoteView } from './QuoteView.js'
 
-class App extends Component {
+class Main extends Component {
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to my page. I am Yeeching, but this page is under construction</h1>
         </header>
-
+        <QuoteView />
       </div>
     );
   }
 }
 
-export default App;
+export default Main;
